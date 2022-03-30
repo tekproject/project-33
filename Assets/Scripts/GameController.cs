@@ -5,18 +5,20 @@ using System.Linq;
 
 public class GameController : MonoBehaviour
 {
-    public static char matchLetter = 'a';
+    public static char matchLetter = '0';
     private static int _complete;
     public static bool alpha = true;
 
 
-    // private void OnEnable()
-    // {
-    //     GenerateBoard();
-    // }
+    private void Start()
+    {
+        // Calling the audio file for bg sound
+        SoundManagerScript.PlaySound("bgsound");
+    }
 
     public static void GenerateBoard()
     {
+
         var panel1 = FindObjectsOfType<panel1>();
         var panel2 = FindObjectsOfType<panel2>();
 

@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 38
+  controlID: 58
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 772.8
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 39
+  controlID: 59
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 40
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/TextMesh Pro/Resources/Fonts & Materials
+    - Assets/Scripts/Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/TextMesh Pro/Resources/Fonts & Materials
+  - Assets/Scripts/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\akhsh\OneDrive\Documents\Match-Me
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e440000
-    m_LastClickedID: 17550
-    m_ExpandedIDs: 00000000664400006e4400009044000000ca9a3b
+    m_SelectedIDs: 7c440000
+    m_LastClickedID: 17532
+    m_ExpandedIDs: 000000006e44000070440000784400008044000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000066440000
+    m_ExpandedIDs: 000000006e44000070440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1afaffff64fbffff90430000b6430000
+      m_ExpandedIDs: 64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1079.4059, y: 472.79626, z: -344.91254}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 1079.4059, y: 472.79626, z: -344.91254}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -596,9 +596,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 603.3169
+    m_Target: 11.01499
     speed: 2
-    m_Value: 603.3169
+    m_Value: 11.01499
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -681,7 +681,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -705,7 +705,7 @@ MonoBehaviour:
       width: 1978.8389
       height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.46921295
+  m_defaultScale: 0.4449074
   m_LastWindowPixelSize: {x: 1100.5, y: 506.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1

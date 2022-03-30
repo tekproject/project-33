@@ -11,6 +11,13 @@ public class panel1 : MonoBehaviour, IPointerClickHandler
         GameController.matchLetter = randomLetter;
         GetComponent<TMP_Text>().color = Color.black;
     }
+    //public void OnPointerClick(PointerEventData eventData)
+    // {
+    //     GameController.matchLetter = randomLetter;
+    //     instance = GetComponent<TMP_Text>();
+    //     instance.color = Color.black;
+    //     panel1Instance = instance;
+    // }
     // private void OnEnable()
     // {
     //     int a = Random.Range(0,26);

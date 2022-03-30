@@ -11,6 +11,14 @@ public class panel2 : MonoBehaviour, IPointerClickHandler
         if(randomLetter == GameController.matchLetter){
             GetComponent<TMP_Text>().color = Color.green;
             GameController.HandleLevel();
+            SoundManagerScript.PlaySound("Cheering");
+            GameController.matchLetter = '0';
+        }
+        else if ('0' == GameController.matchLetter){
+
+        }
+        else {
+            SoundManagerScript.PlaySound("OhNo");
         }
     }
     internal void SetLetter(char letter)

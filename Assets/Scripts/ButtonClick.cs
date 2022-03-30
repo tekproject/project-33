@@ -21,6 +21,8 @@ public class ButtonClick : MonoBehaviour, IPointerClickHandler
         }
         if (GetComponent<TMP_Text>().text == "RESTART") 
         {
+            SoundManagerScript.PlaySound("Cheering");
+            
             GameController.GenerateBoard();
         }
     }
